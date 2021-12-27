@@ -1,21 +1,21 @@
 import { useState } from 'react';
-import { Button as BootstrapButton } from "react-bootstrap";
+import { Button as BootstrapButton } from 'react-bootstrap';
 
-import BallPortal from "./BallPortal";
+import BallPortal from './BallPortal';
 
 function Button() {
-  const [showBall, toggleShowBall] = useState(false)
-  const [isDisabled, toggleIsDisabled] = useState(false)
+  const [showBall, toggleShowBall] = useState(false);
+  const [isDisabled, toggleIsDisabled] = useState(false);
 
   const handleClick = () => {
-    toggleShowBall(!showBall)
-    toggleIsDisabled(true)
-  }
+    toggleShowBall(!showBall);
+    toggleIsDisabled(true);
+  };
 
   const resetState = () => {
-    toggleShowBall(false)
-    toggleIsDisabled(false)
-  }
+    toggleShowBall(false);
+    toggleIsDisabled(false);
+  };
 
   return (
     <>
@@ -24,8 +24,7 @@ function Button() {
         Fire!
       </BootstrapButton>
     </>
-  )
+  );
 }
 
-
-export default Button
+export default Button;

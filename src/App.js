@@ -1,6 +1,6 @@
-import Canyon from "./Canyon";
-import { Container, Row, Col } from "react-bootstrap";
-import Button from "./Button";
+import Canyon from './Canyon';
+import { Container, Row, Col } from 'react-bootstrap';
+import Button from './Button';
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
 
       <Row className="button-row">
         <Col lg={2}>
-          <Button>
-            Fire!
-          </Button>
+          <Button>Fire!</Button>
         </Col>
       </Row>
     </Container>

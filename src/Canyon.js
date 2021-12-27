@@ -5,7 +5,7 @@ function Canyon() {
     <div id="canyon-wrapper">
       <img src={canon} className="canyon" alt="logo" />
     </div>
-  )
+  );
 }
 
-export default Canyon
+export default Canyon;
