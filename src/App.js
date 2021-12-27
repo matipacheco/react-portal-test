@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Canyon from "./Canyon";
+import { Container, Row, Col } from "react-bootstrap";
+import Button from "./Button";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row className="canyon-row">
+        <Col lg={3} className="canyon-container">
+          <Canyon />
+        </Col>
+      </Row>
+
+      <Row className="button-row">
+        <Col lg={2}>
+          <Button>
+            Fire!
+          </Button>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.canyon {
+  width: 200px;
+  height: 200px;
+}
+
+#canyon-wrapper {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: space-between;
+}
+
+.container {
+  height: 80vh;
+}
+
+.canyon-row {
+  height: 100%;
+}
+
+.button-row button {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.canyon-container {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 50px;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+}
+
+#canyon-portal {
+  left: 25%;
+  bottom: 40%;
+  position: absolute;
+}
